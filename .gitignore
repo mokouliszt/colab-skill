@@ -1,0 +1,10 @@
+# Real credentials must never be committed. Only *.example files are tracked.
+skills/*/auth/*
+!skills/*/auth/*.example
+
+# Packaged skills (the private package contains a refresh token)
+*.zip
+
+__pycache__/
+*.pyc
+.DS_Store
